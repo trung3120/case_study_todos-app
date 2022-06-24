@@ -1,0 +1,100 @@
+@media screen and (min-width: 300px) {
+    .todo__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 700px;
+        border: 1px solid lightgray;
+        margin-bottom: 10px !important;
+    }
+
+    .paper {
+        position: relative;
+        left: 400;
+        top: 150;
+        /* width: 600px; */
+        height: 300px;
+        background-color: white;
+        box-shadow: 10px;
+        padding: 30px;
+        margin: 100px;
+        border-radius: 10px;
+    }
+
+    .input {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 50px;
+        width: 300px;
+    }
+
+    .deleteBtn {
+        opacity: 0.7;
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+
+    .editBtn {
+        opacity: 0.7;
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+
+    .checkBtn {
+        opacity: 0.7;
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .todo__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        border: 1px solid lightgray;
+        margin-bottom: 10px !important;
+    }
+
+    .paper {
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        box-shadow: 10px;
+        padding: 30px;
+        margin: 100px 0 0 45px;
+        border-radius: 10px;
+    }
+
+    .input {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 50px;
+        width: 130px;
+    }
+
+    .deleteBtn {
+        opacity: 0.7;
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+    
+    .editBtn {
+        opacity: 0.7;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .checkBtn {
+        opacity: 0.7;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .item {
+        margin-left: -40px;
+    }
+}
